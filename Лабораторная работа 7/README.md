@@ -28,42 +28,11 @@
    - `POST /api/posts/like.php` - добавление лайка к статье
    - `POST /api/comments/like.php` - добавление лайка к комментарию
 
-## Запуск
-
-1. Запустите PHP сервер:
-   ```bash
-   php -S localhost:8000 router.php
-   ```
-
-2. Откройте в браузере:
-   ```
-   http://localhost:8000
-   ```
-
-## API Endpoints
-
-### Добавить лайк к статье
-```
-POST /api/posts/like.php
-Content-Type: application/json
-
-{
-  "post_uuid": "660e8400-e29b-41d4-a716-446655440001",
-  "user_uuid": "550e8400-e29b-41d4-a716-446655440001"
-}
-```
-
-### Добавить лайк к комментарию
-```
-POST /api/comments/like.php
-Content-Type: application/json
-
-{
-  "comment_uuid": "770e8400-e29b-41d4-a716-446655440001",
   "user_uuid": "550e8400-e29b-41d4-a716-446655440001"
 }
 ```
 
 Примечание: Пользователь не может поставить больше одного лайка одной статье или комментарию.
+
 
 
