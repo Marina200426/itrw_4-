@@ -78,13 +78,6 @@
 **Наследники:**
 - **ComplaintForm** - форма жалобы с категорией, приоритетом и связью с заказом
 
-## Использование
-
-Запустите файл `index.php` для просмотра примеров использования всех классов:
-
-```bash
-php index.php
-```
 
 ## Файлы
 
@@ -94,4 +87,5 @@ php index.php
 - `User.php` - классы User, Admin, VIPCustomer
 - `ContactForm.php` - классы ContactForm, ComplaintForm
 - `index.php` - примеры использования
+
 
